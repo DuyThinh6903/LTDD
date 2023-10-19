@@ -1,0 +1,180 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3     Copyright (C) 2020 The Android Open Source Project
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.wordsapp"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="19"
+23-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="33" />
+24-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.REORDER_TASKS" />
+26-->[androidx.fragment:fragment-testing:1.5.3] C:\Users\Admin\.gradle\caches\transforms-3\d7e1fdf6ca162fd41f869118b87ed52c\transformed\jetified-fragment-testing-1.5.3\AndroidManifest.xml:25:5-72
+26-->[androidx.fragment:fragment-testing:1.5.3] C:\Users\Admin\.gradle\caches\transforms-3\d7e1fdf6ca162fd41f869118b87ed52c\transformed\jetified-fragment-testing-1.5.3\AndroidManifest.xml:25:22-69
+27
+28    <permission
+28-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\7ea863fe6f7440e81c5c3888e65b069d\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+29        android:name="com.example.wordsapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\7ea863fe6f7440e81c5c3888e65b069d\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\7ea863fe6f7440e81c5c3888e65b069d\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.example.wordsapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\7ea863fe6f7440e81c5c3888e65b069d\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\7ea863fe6f7440e81c5c3888e65b069d\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:20:5-35:19
+35        android:allowBackup="true"
+35-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:21:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.9.0] C:\Users\Admin\.gradle\caches\transforms-3\7ea863fe6f7440e81c5c3888e65b069d\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:22:9-43
+39        android:label="@string/app_name"
+39-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:23:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:24:9-54
+41        android:supportsRtl="true"
+41-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:25:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.Words" >
+43-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:26:9-43
+44        <activity
+44-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:27:9-34:20
+45            android:name="com.example.wordsapp.MainActivity"
+45-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:27:19-47
+46            android:exported="true" >
+46-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:28:13-36
+47            <intent-filter>
+47-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:29:13-33:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:30:17-69
+48-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:30:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:32:17-77
+50-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:32:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->[androidx.fragment:fragment-testing:1.5.3] C:\Users\Admin\.gradle\caches\transforms-3\d7e1fdf6ca162fd41f869118b87ed52c\transformed\jetified-fragment-testing-1.5.3\AndroidManifest.xml:28:9-37:20
+54            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+54-->[androidx.fragment:fragment-testing:1.5.3] C:\Users\Admin\.gradle\caches\transforms-3\d7e1fdf6ca162fd41f869118b87ed52c\transformed\jetified-fragment-testing-1.5.3\AndroidManifest.xml:29:13-96
+55            android:exported="true"
+55-->[androidx.fragment:fragment-testing:1.5.3] C:\Users\Admin\.gradle\caches\transforms-3\d7e1fdf6ca162fd41f869118b87ed52c\transformed\jetified-fragment-testing-1.5.3\AndroidManifest.xml:30:13-36
+56            android:multiprocess="true"
+56-->[androidx.fragment:fragment-testing:1.5.3] C:\Users\Admin\.gradle\caches\transforms-3\d7e1fdf6ca162fd41f869118b87ed52c\transformed\jetified-fragment-testing-1.5.3\AndroidManifest.xml:31:13-40
+57            android:taskAffinity=""
+57-->[androidx.fragment:fragment-testing:1.5.3] C:\Users\Admin\.gradle\caches\transforms-3\d7e1fdf6ca162fd41f869118b87ed52c\transformed\jetified-fragment-testing-1.5.3\AndroidManifest.xml:32:13-36
+58            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+58-->[androidx.fragment:fragment-testing:1.5.3] C:\Users\Admin\.gradle\caches\transforms-3\d7e1fdf6ca162fd41f869118b87ed52c\transformed\jetified-fragment-testing-1.5.3\AndroidManifest.xml:33:13-78
+59            <intent-filter>
+59-->[androidx.fragment:fragment-testing:1.5.3] C:\Users\Admin\.gradle\caches\transforms-3\d7e1fdf6ca162fd41f869118b87ed52c\transformed\jetified-fragment-testing-1.5.3\AndroidManifest.xml:34:13-36:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:30:17-69
+60-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:30:25-66
+61            </intent-filter>
+62        </activity>
+63
+64        <uses-library
+64-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\dadfeeec0ec18e6215c17eed05fb7776\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+65            android:name="androidx.window.extensions"
+65-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\dadfeeec0ec18e6215c17eed05fb7776\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\dadfeeec0ec18e6215c17eed05fb7776\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+67        <uses-library
+67-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\dadfeeec0ec18e6215c17eed05fb7776\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+68            android:name="androidx.window.sidecar"
+68-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\dadfeeec0ec18e6215c17eed05fb7776\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+69            android:required="false" />
+69-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\dadfeeec0ec18e6215c17eed05fb7776\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+70
+71        <provider
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\617dc4b4f73b1fb266dd41b8be3fbfe8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\617dc4b4f73b1fb266dd41b8be3fbfe8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+73            android:authorities="com.example.wordsapp.androidx-startup"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\617dc4b4f73b1fb266dd41b8be3fbfe8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+74            android:exported="false" >
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\617dc4b4f73b1fb266dd41b8be3fbfe8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+75            <meta-data
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\617dc4b4f73b1fb266dd41b8be3fbfe8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\617dc4b4f73b1fb266dd41b8be3fbfe8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+77                android:value="androidx.startup" />
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\617dc4b4f73b1fb266dd41b8be3fbfe8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\.gradle\caches\transforms-3\7a2a7a403e8d17c00a4b58be55594776\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\.gradle\caches\transforms-3\7a2a7a403e8d17c00a4b58be55594776\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+80                android:value="androidx.startup" />
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\.gradle\caches\transforms-3\7a2a7a403e8d17c00a4b58be55594776\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+81        </provider>
+82
+83        <activity
+83-->[androidx.test:core:1.4.0] C:\Users\Admin\.gradle\caches\transforms-3\ecd22de775ed9bb0860655b17fcb7ec5\transformed\jetified-core-1.4.0\AndroidManifest.xml:27:9-34:20
+84            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+84-->[androidx.test:core:1.4.0] C:\Users\Admin\.gradle\caches\transforms-3\ecd22de775ed9bb0860655b17fcb7ec5\transformed\jetified-core-1.4.0\AndroidManifest.xml:28:13-99
+85            android:exported="true"
+85-->[androidx.test:core:1.4.0] C:\Users\Admin\.gradle\caches\transforms-3\ecd22de775ed9bb0860655b17fcb7ec5\transformed\jetified-core-1.4.0\AndroidManifest.xml:29:13-36
+86            android:theme="@android:style/Theme" >
+86-->[androidx.test:core:1.4.0] C:\Users\Admin\.gradle\caches\transforms-3\ecd22de775ed9bb0860655b17fcb7ec5\transformed\jetified-core-1.4.0\AndroidManifest.xml:30:13-49
+87            <intent-filter>
+87-->[androidx.fragment:fragment-testing:1.5.3] C:\Users\Admin\.gradle\caches\transforms-3\d7e1fdf6ca162fd41f869118b87ed52c\transformed\jetified-fragment-testing-1.5.3\AndroidManifest.xml:34:13-36:29
+88                <action android:name="android.intent.action.MAIN" />
+88-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:30:17-69
+88-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:30:25-66
+89            </intent-filter>
+90        </activity>
+91        <activity
+91-->[androidx.test:core:1.4.0] C:\Users\Admin\.gradle\caches\transforms-3\ecd22de775ed9bb0860655b17fcb7ec5\transformed\jetified-core-1.4.0\AndroidManifest.xml:35:9-42:20
+92            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+92-->[androidx.test:core:1.4.0] C:\Users\Admin\.gradle\caches\transforms-3\ecd22de775ed9bb0860655b17fcb7ec5\transformed\jetified-core-1.4.0\AndroidManifest.xml:36:13-95
+93            android:exported="true"
+93-->[androidx.test:core:1.4.0] C:\Users\Admin\.gradle\caches\transforms-3\ecd22de775ed9bb0860655b17fcb7ec5\transformed\jetified-core-1.4.0\AndroidManifest.xml:37:13-36
+94            android:theme="@android:style/Theme" >
+94-->[androidx.test:core:1.4.0] C:\Users\Admin\.gradle\caches\transforms-3\ecd22de775ed9bb0860655b17fcb7ec5\transformed\jetified-core-1.4.0\AndroidManifest.xml:38:13-49
+95            <intent-filter>
+95-->[androidx.fragment:fragment-testing:1.5.3] C:\Users\Admin\.gradle\caches\transforms-3\d7e1fdf6ca162fd41f869118b87ed52c\transformed\jetified-fragment-testing-1.5.3\AndroidManifest.xml:34:13-36:29
+96                <action android:name="android.intent.action.MAIN" />
+96-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:30:17-69
+96-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:30:25-66
+97            </intent-filter>
+98        </activity>
+99        <activity
+99-->[androidx.test:core:1.4.0] C:\Users\Admin\.gradle\caches\transforms-3\ecd22de775ed9bb0860655b17fcb7ec5\transformed\jetified-core-1.4.0\AndroidManifest.xml:43:9-50:20
+100            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+100-->[androidx.test:core:1.4.0] C:\Users\Admin\.gradle\caches\transforms-3\ecd22de775ed9bb0860655b17fcb7ec5\transformed\jetified-core-1.4.0\AndroidManifest.xml:44:13-103
+101            android:exported="true"
+101-->[androidx.test:core:1.4.0] C:\Users\Admin\.gradle\caches\transforms-3\ecd22de775ed9bb0860655b17fcb7ec5\transformed\jetified-core-1.4.0\AndroidManifest.xml:45:13-36
+102            android:theme="@android:style/Theme.Dialog" >
+102-->[androidx.test:core:1.4.0] C:\Users\Admin\.gradle\caches\transforms-3\ecd22de775ed9bb0860655b17fcb7ec5\transformed\jetified-core-1.4.0\AndroidManifest.xml:46:13-56
+103            <intent-filter>
+103-->[androidx.fragment:fragment-testing:1.5.3] C:\Users\Admin\.gradle\caches\transforms-3\d7e1fdf6ca162fd41f869118b87ed52c\transformed\jetified-fragment-testing-1.5.3\AndroidManifest.xml:34:13-36:29
+104                <action android:name="android.intent.action.MAIN" />
+104-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:30:17-69
+104-->F:\VKU\LapTrinhDiDong\android-basics-kotlin-words-app-activities\app\src\main\AndroidManifest.xml:30:25-66
+105            </intent-filter>
+106        </activity>
+107    </application>
+108
+109</manifest>

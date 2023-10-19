@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\VKU\\LapTrinhDiDong\\android-basics-kotlin-words-app-activities\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_word_list.xml",
+        "source": "F:\\VKU\\LapTrinhDiDong\\android-basics-kotlin-words-app-activities\\app\\src\\main\\res\\layout\\fragment_word_list.xml"
+    },
+    {
+        "merged": "F:\\VKU\\LapTrinhDiDong\\android-basics-kotlin-words-app-activities\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_view.xml",
+        "source": "F:\\VKU\\LapTrinhDiDong\\android-basics-kotlin-words-app-activities\\app\\src\\main\\res\\layout\\item_view.xml"
+    },
+    {
+        "merged": "F:\\VKU\\LapTrinhDiDong\\android-basics-kotlin-words-app-activities\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "F:\\VKU\\LapTrinhDiDong\\android-basics-kotlin-words-app-activities\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\VKU\\LapTrinhDiDong\\android-basics-kotlin-words-app-activities\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_letter_list.xml",
+        "source": "F:\\VKU\\LapTrinhDiDong\\android-basics-kotlin-words-app-activities\\app\\src\\main\\res\\layout\\fragment_letter_list.xml"
+    }
+]
