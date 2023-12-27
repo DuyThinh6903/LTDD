@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "677469559079",
+    "firebase_url": "https://cuoiky-c1dad-default-rtdb.firebaseio.com",
+    "project_id": "cuoiky-c1dad",
+    "storage_bucket": "cuoiky-c1dad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677469559079:android:4580848a2ef8238b097102",
+        "android_client_info": {
+          "package_name": "com.example.baicuoiky"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_tZoTBOuTB24VwV6D5LmgWJrPkfXSjyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677469559079:android:0aef2d0b9c071404097102",
+        "android_client_info": {
+          "package_name": "com.example.client"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_tZoTBOuTB24VwV6D5LmgWJrPkfXSjyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677469559079:android:77c1edd1c79e40ec097102",
+        "android_client_info": {
+          "package_name": "com.example.cuoiky"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_tZoTBOuTB24VwV6D5LmgWJrPkfXSjyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
